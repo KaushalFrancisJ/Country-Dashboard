@@ -1,0 +1,84 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-color: rgb(161, 152, 120); */
+}
+.container{
+    justify-content: center;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, 16.75rem);
+}
+
+.search{
+    font-size: 1.5rem;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.search > * {
+    box-shadow: 0px 0px 0.5em grey;
+}
+
+.search input{
+    width: 20rem;
+    border-width: 0px;
+}
+
+.search button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(65, 51, 51);
+    border-width: 0px;
+    background-color: rgb(255, 228, 220);
+}
+
+.search button:hover{
+    background-color: rgb(255, 202, 187);
+}
+.search button:active{
+    background-color: rgb(255, 173, 155);
+}
+
+
+.country{
+    background-color: rgb(226, 198, 157);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 0.5rem rgb(175, 175, 175);
+    /* justify-content: space-between; */
+    border-width: 2px;
+    /* border-color: aqua; */
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+
+.country-details{
+    padding: 0.5rem;
+}
+
+.flag{
+    /* width : 11rem; */
+    height: 10rem;
+    overflow: auto;
+    /* margin: -4px; */
+    text-align: justify;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(255, 228, 220);
+    
+}
+
+.nameCountry{
+    font-size: 1.75rem;
+    font-weight: 1000;
+}
+.capital{
+    font-size: larger;
+    /* background-color: green; */
+    
+}
