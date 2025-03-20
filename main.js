@@ -84,7 +84,7 @@ function searchCountries(inputId){
     const inputValue = document.getElementById(inputId).value;
     const result = countries.filter(country => country.name.official.toLowerCase().includes(inputValue.toLowerCase()));
     container.textContent = '';
-    console.log(result);
+    // console.log(result);
     if(result.length !== 0){
         for(let i of result){
             createDom(i);
