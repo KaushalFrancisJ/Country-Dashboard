@@ -56,6 +56,10 @@ body{
     overflow: hidden;
 }
 
+.country:hover{
+    box-shadow: 0px 0px 0.5rem #000;
+}
+
 
 .country-details{
     padding: 0.5rem;
