@@ -58,7 +58,7 @@ body {
   fill: none;
   stroke: skyblue;
   stroke-linecap: round;
-  transition: stroke-dashoffset 500ms ease-in-out;
+  transition: stroke-dashoffset 50ms ease-in-out;
 }
 
 .svg-circle-text {
