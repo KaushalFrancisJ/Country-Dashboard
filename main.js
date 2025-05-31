@@ -2,8 +2,11 @@ const api = fetch('https://restcountries.com/v3.1/all')
   .then((response) => response.json())
   .then((array) => array);
 
+let countries = [];
+
 async function loadflag() {
   api.then((array) => {
+    countries = array;
     const total = array.length;
     let loaded = 0;
     array.forEach((item, index) => {
